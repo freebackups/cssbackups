@@ -1,0 +1,24 @@
+label {color: #000;font-family: 'latoregular', sans-serif;font-size: 13px;}
+input {resize: none;width: 100%;margin-top: 7px;border: 1px solid #D1D1D1;outline: none;padding: 6.5px 0 5.5px 10.1px;font-family: 'sourcesansproregular', sans-serif;font-size: 14px;color: #000;}
+input::placeholder {color: #AFAFAF;font-family: 'sourcesansproregular', sans-serif;font-size: 13px;}
+select {resize: vertical;width: 100%;margin-top: 7px;border: 1px solid #D1D1D1;padding: 6.5px 0 5.5px 10.1px;color: #000;font-family: 'sourcesansproregular', sans-serif;font-size: 13px;}
+.divhidecomponent {display: none;}
+.inputbgcolor {background-color: #F7F7F7;}
+.selectbgcolor {background-color: #F8F8F8;}
+.spanastrik, .spanasdollar {color: #A80000;}
+.placehright::placeholder {text-align: right;padding-right: 5px;}
+.icon-calendar, .icon-alternatesubmitter {position: relative;float: right;bottom: 25px;right: 7px;}
+.divformactionbtns {padding: 12px 15px 7px 15px;margin-left: auto;}
+.divformactionbtns ul {display: flex;list-style: none;}
+.divformactionbtns ul li:not(:last-child) {margin-right: 8px;}
+.divformactionbtns ul li a {text-decoration: none;padding: 4px 7px 2px 11px;margin: 7px 0;border: 1px solid #707070;background-color: #fff;color: #333333;font-size: 14px;font-family: 'sourcesansprosemibold', sans-serif;margin: 8px 0 7px 0;}
+.divformactionbtns ul li a:hover {background-color: #FFC400;color: #000;}
+.divformactionbtns ul li a>i[class^="icon-"]:not(.icon-submit) {margin-right: 4px;}
+.divformactionbtns ul li:last-child a {background-color: #FFC400;}
+.divformactionbtns .icon-submitinside {position: relative;bottom: 3px;right: 7px;}
+/* Tool Tip */
+.tooltip {position: relative;display: inline-flex;}
+.tooltip .tooltiptext {visibility: hidden;white-space: nowrap;display: flex;background-color: #363636;color: #fff;text-align: left;border-radius: 6px;padding: 5px;position: absolute;z-index: 3;top: -7px;left: 20px;}
+.tooltip .tooltiptext::after {content: "";position: absolute;top: 50%;right: 100%;margin-top: -5px;border-width: 5px;border-style: solid;border-color: transparent #363636 transparent transparent;}
+.tooltip:hover .tooltiptext {visibility: visible;}
+
